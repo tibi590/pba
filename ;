@@ -49,13 +49,12 @@ hr {
     font-family: "typo";
     font-size: 20px;
     padding: 10px;
-    transition: ease-in 100ms;
+    transition: ease 100ms;
 }
 
 .btn:hover {
     border-color: $primary-color;
     color: $primary-color;
-    font-size: 25px;
 }
 
 #title {
