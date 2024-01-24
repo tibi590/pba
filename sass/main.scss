@@ -3,6 +3,7 @@ $foreground-color: #EEEEEE;
 $primary-color: #FFD369;
 $secondary-color: #393E46;
 
+
 @mixin abs-center-percent($width, $height) {
     position: absolute;
     width: $width;
@@ -19,6 +20,7 @@ $secondary-color: #393E46;
 body, html {
     height: 99%;
 }
+
 
 body {
     background-color: $background-color;
@@ -61,3 +63,4 @@ hr {
 #title {
     color: $foreground-color;
 }
+
