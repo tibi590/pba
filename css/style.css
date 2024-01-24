@@ -1,5 +1,55 @@
+@font-face {
+  font-family: "typo";
+  src: url("../fonts/typo/Typo_Round_Regular_Demo.otf");
+}
 body, html {
   height: 99%;
+}
+
+body {
+  background-color: #222831;
+  font-family: "typo";
+}
+
+hr {
+  border: 3px solid #EEEEEE;
+}
+
+.container {
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  left: 35%;
+  top: 10%;
+  background-color: #393E46;
+  border: 5px solid #EEEEEE;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.btn {
+  width: 40%;
+  height: 10%;
+  margin: 15px;
+  margin-top: 45%;
+  background-color: #222831;
+  color: #EEEEEE;
+  border: 3px solid #EEEEEE;
+  border-radius: 1rem;
+  font-family: "typo";
+  font-size: 20px;
+  padding: 10px;
+  transition: ease-in 100ms;
+}
+
+.btn:hover {
+  border-color: #FFD369;
+  color: #FFD369;
+  font-size: 25px;
+}
+
+#title {
+  color: #EEEEEE;
 }
 
 /*# sourceMappingURL=style.css.map */
