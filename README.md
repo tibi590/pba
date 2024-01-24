@@ -7,13 +7,12 @@ Pataky pool is a website used to establish pool rankings.
 
 -Puting your ball -> **1 points**
 
-
 -Puting enemy ball -> **-1 points**
 
 -Puting the white ball -> **-1 points**
 
 -Puting the black ball (leading to a loss) -> **-5 points**
 
-### DOCUMENTATIONS ###
+## DOCUMENTATIONS ##
 
-Documentation for [sass](https://sass-lang.com/guide/) (used for css).
+Documentation for [Sass](https://sass-lang.com/guide/) (used for css).
