@@ -1,23 +1,7 @@
-// Variables
-$background-color: #222831;
-$foreground-color: #EEEEEE;
-$primary-color: #FFD369;
-$secondary-color: #393E46;
-
-// Centers the element based on percentage and absolute position
-@mixin abs-center-percent($width, $height) {
-    position: absolute;
-    width: $width;
-    height: $height;
-    left: (100-$width)/2;
-    top: (100-$height)/2;
-}
-
-// Imports new font from the "/fonts" folder with the name of "typo" 
-@font-face {
-    font-family: "typo";
-    src: url("../fonts/typo/Typo_Round_Regular_Demo.otf");
-}
+// Imports
+@import "mixins";
+@import "fonts";
+@import "variables";
 
 body, html {
     height: 99%;

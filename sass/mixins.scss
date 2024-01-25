@@ -1,0 +1,12 @@
+// Modules
+@use "sass:math";
+
+// Centers the element based on percentage and absolute position
+@mixin abs-center-percent($width, $height) {
+    position: absolute;
+    width: $width;
+    height: $height;
+    left: math.div(100-$width, 2);
+    top: math.div(100-$height, 2);
+}
+
