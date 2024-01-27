@@ -17,9 +17,9 @@ hr {
 
 .container {
   position: absolute;
-  width: 30%;
+  width: 40%;
   height: 80%;
-  left: 35%;
+  left: 30%;
   top: 10%;
   background-color: #393E46;
   border: 5px solid #EEEEEE;
@@ -50,6 +50,35 @@ hr {
 
 #title {
   color: #EEEEEE;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    left: 20%;
+    top: 10%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .container {
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    left: 10%;
+    top: 5%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    box-sizing: border-box;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,7 +17,7 @@ hr {
 }
 
 .container {
-    @include abs-center-percent(30%, 80%);
+    @include abs-center-percent(40%, 80%);
     background-color: $secondary-color;
     border: 5px solid $foreground-color;
     border-radius: 25px;
@@ -49,3 +49,12 @@ hr {
     color: $foreground-color;
 }
 
+// Media queries for different devices
+// Checking for large tablet width and modifying .container
+@include check-for-large-tablet();
+
+// Checking for tablet width and modifying .container
+@include check-for-tablet();
+
+// Checking for phone width and modifying .container
+@include check-for-phone();
