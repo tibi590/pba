@@ -3,16 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/main.js"></script>
         <link href="css/style.css" rel="stylesheet">
-        <title>Pool</title>
+        <link rel="icon" href="images/icon.png" type="image/x-icon">
+        <title>PP</title>
     </head>
     <body>
         <div class="container">
-            <h1 id="title">Pataky Pool</h1>
-            <hr>
-
-            <input type="button" name="NewGame" value="New Game" class="btn">
-            <input type="button" name="Go" value="Go" class="btn">
+            <div class="header">
+                <h1 id="title">Pataky Pool</h1>
+            </div>
+            <div class="button">
+                <input type="button" name="NewGame" value="New Game" class="btn">
+                <input type="button" name="Go" value="Go" class="btn">
+                <select name="Select" id="Select" >
+                    <optgroup label="Default">
+                        <option value="none">None</option>
+                    </optgroup>
+                    <optgroup label="Section 1">
+                        <option value="test1">Test1</option>
+                        <option value="test2">Test1.2</option>
+                    </optgroup>
+                    <optgroup label="Section 2">
+                        <option value="test2">Test2</option>
+                        <option value="test2">Test2.2</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="footer">
+                <p id="info_text" class="info_btn" onmouseover="show_info()" onmouseleave="hide_info()">Info</p>
+            </div>
         </div>
     </body>
 </html>
