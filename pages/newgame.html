@@ -3,13 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="../css/style.css" rel="stylesheet">
         <title>Pool</title>
     </head>
     <body>
         <div class="container">
-            <h1 id="title">New Game</h1>
-            <hr>
+            <div id="header">
+                <h1 id="title">New Game</h1>
+            </div>
+            <div id="body">
+                <p>Select the team sizes</p>
+                <select id="team_1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select id="team_2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div id="footer">
+                <input type="submit" name="back_btn" value="Back" class="btn" id="back_btn">
+                <input type="submit" name="next_btn" value="Next" class="btn" id="back_btn">
+            </div>
         </div>
     </body>
 </html>
