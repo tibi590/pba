@@ -10,25 +10,39 @@ body, html {
 body {
     background-color: $background-color;
     font-family: "typo";
+    color: $foreground-color;
 }
 
 hr {
     border: 3px solid $foreground-color;
 }
 
+select {
+    width: 35%;
+    height: 40px;
+    background-color: $background-color;
+    color: $foreground-color;
+    border: 3px solid $foreground-color;
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 15px;
+    outline: none;
+}
+
 .container {
     @include abs-center-percent(40%, 80%);
     background-color: $secondary-color;
-    border: 5px solid $foreground-color;
-    border-radius: 25px;
+    // border: 5px solid $foreground-color;
+    // border-radius: 25px;
     text-align: center;
+    display: grid;
 }
 
 .btn {
-    width: 40%;
-    height: 10%;
+    width: 35%;
+    height: 75px;
     margin: 15px;
-    margin-top: 45%;
+    // margin-top: 45%;
     background-color: $background-color;
     color: $foreground-color;
     border: 3px solid $foreground-color;
@@ -47,6 +61,24 @@ hr {
 
 #title {
     color: $foreground-color;
+}
+
+#header {
+    border: 5px solid $foreground-color;
+    border-radius: 2rem 2rem 0rem 0rem;
+    border-bottom: none;
+}
+
+#body {
+    border: 5px solid $foreground-color;
+    border-top: none;
+    border-bottom: none;
+}
+
+#footer {
+    border: 5px solid $foreground-color;
+    border-radius: 0rem 0rem 2rem 2rem;
+    border-top: none;
 }
 
 // Media queries for different devices

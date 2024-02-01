@@ -9,10 +9,23 @@ body, html {
 body {
   background-color: #222831;
   font-family: "typo";
+  color: #EEEEEE;
 }
 
 hr {
   border: 3px solid #EEEEEE;
+}
+
+select {
+  width: 35%;
+  height: 40px;
+  background-color: #222831;
+  color: #EEEEEE;
+  border: 3px solid #EEEEEE;
+  border-radius: 0.5rem;
+  padding: 10px;
+  margin: 15px;
+  outline: none;
 }
 
 .container {
@@ -22,16 +35,14 @@ hr {
   left: 30%;
   top: 10%;
   background-color: #393E46;
-  border: 5px solid #EEEEEE;
-  border-radius: 25px;
   text-align: center;
+  display: grid;
 }
 
 .btn {
-  width: 40%;
-  height: 10%;
+  width: 35%;
+  height: 75px;
   margin: 15px;
-  margin-top: 45%;
   background-color: #222831;
   color: #EEEEEE;
   border: 3px solid #EEEEEE;
@@ -50,6 +61,24 @@ hr {
 
 #title {
   color: #EEEEEE;
+}
+
+#header {
+  border: 5px solid #EEEEEE;
+  border-radius: 2rem 2rem 0rem 0rem;
+  border-bottom: none;
+}
+
+#body {
+  border: 5px solid #EEEEEE;
+  border-top: none;
+  border-bottom: none;
+}
+
+#footer {
+  border: 5px solid #EEEEEE;
+  border-radius: 0rem 0rem 2rem 2rem;
+  border-top: none;
 }
 
 @media only screen and (max-width: 1100px) {
